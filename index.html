@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to bourdigital</title>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>   
+    <link rel="stylesheet" href="icons.css">
+    <link rel="stylesheet" href="bourdigital.css">
+    <link rel="stylesheet" href="sidebar.css">
+    <style>
+        /* Make the image fully responsive */
+        .carousel-inner img {
+          width: 100%;
+          height: 50%;
+        }
+        .carousel-content {
+        position: absolute;
+        bottom: 10%;
+        left: 5%;
+        z-index: 20;
+        color: white;
+        text-shadow: 0 1px 2px rgba(0,0,0,.6);
+      }
+        </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top" id="fm" >
+        <a class="navbar-brand" href="#" ><img src="images/bourdigital logo.PNG" alt="" height="50px"; width="50px"class="zoom" ></a>
+        <a class="navbar-brand" href="#" ><p class="para">BOURDIGITAL</p></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto" id="navanchor">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Mission</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Vision</a>
+              </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Packages
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown" id="dpdwn">
+                <a class="dropdown-item" href="#">Ms Word professional</a>
+                <a class="dropdown-item" href="#">Python Programming</a>
+                <a class="dropdown-item" href="#">Web Development</a>
+                <a class="dropdown-item" href="#">Graphics Design</a>
+                <a class="dropdown-item" href="#">Networking(Routing & Switching)</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Embeded systems</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Our Partners</a>
+            </li>
+          </ul>
+          <div>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-google"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+      <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/bord1.jpg" alt="Los Angeles" width="1100" height="200px">
+            <div class="carousel-content" style="text-align: center; font-size: 1.2em;color: white;background-color: #0652DD; padding: 7px;">
+           
+              <p >We are committed to biulding Manpower and Capacity Development, you discover your potentials as we take <br>
+                you into indept knowlege of your desired    field of pursuit and interest, a trial will convince you.</p>
+          
+            </div>
+            <div class="carousel-caption">
+              <h3 style="color:#EA2027;"><i><b>Building your Career  With Bourdigital...</b></i></h3>
+            </div>
+          </div> 
+          <div class="carousel-item">
+            <img src="images/unsplash-NuFUbftUu_s-unsplash.jpg" alt="Chicago" width="1100" height="200px">
+            <div class="carousel-caption">
+              <h3 style="color:#1B1464;"><i><b>Building your Career  With Bourdigital...</b></i></h3>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/Training Section.jpg" alt="New York" width="1100" height="200px">
+            <div class="carousel-caption">
+              <h3 style="color:#0be881;"><i><b>Bringing reality home with Bourdigital...</b></i></h3>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>
+    <div id="img">
+        <center>
+          <marquee behavior="scroll" direction="left" scrollamount="10">
+            <h1 style="padding-top: 80px; color:#EA2027; text-transform: uppercase;" >
+              <b>Welcome to Bourdigital Global Link LTD</b></h1>
+          </marquee>
+        </center>
+        
+    <center>
+      <h3 class="" style="color:#1B1464">Register for our Professional Trainings</h3>
+      <ul class="" style="color:#d35400; list-style: none; font-weight: 30px;font-size: 1.2em;cursor: pointer;">
+        <li><b>Web Development</b></li>
+        <li><b>Graphics Design</b></li>
+        <li><b>Python Programming</b></li>
+        <li><b>Data base Design & Management</b></li>
+        <li><b>Routing & Switching</b></li>
+        <li><b>Consultancy</b></li>
+      </ul>
+      <button type="button" class="btn btn-success">Register</button>
+    </center>
+    </div>
+    <center><h1 class="h1">explore our facilities</h1></center>
+    <div class="grid1">
+      
+        <center>
+            <section  > <img src="images/111.png" alt="" id="border"> <br><br>
+              
+                <p class="facilities">Projects are the best way to open your minds to learning electrical engineering practically.
+                   Making projects that do an exciting real-world task will make you curious to understand electrical concepts better.
+                </p> <br>
+                <button type="button" class="btn btn-success" style="margin-bottom: 20px;"><a href="https://en.wikipedia.org/wiki/Control_valve">learn more.. </a> </button> <br>
+            </section>
+        </center>
+       <center>
+        <section>
+            <img src="images/project 3.jpg" alt="" id="border"> <br><br>
+            
+            <p class="facilities">The pneumatic control signals are traditionally based on a pressure range of 3-15psi (0.2-1.0 bar), or more commonly now,
+               an electrical signal of 4-20mA for industry, or 0-10V for HVAC systems. 
+            </p> <br>
+            
+            <button type="button" class="btn btn-success" style="margin-bottom: 20px;"><a href="https://en.wikipedia.org/wiki/Control_valve">learn more.. </a> </button> <br>
+        </section>
+       </center>
+        <center>
+            <section><img src="images/232.png" alt="" id="border"> <br> <br> 
+              
+              <p class="facilities">A workstation is a special computer designed for technical or scientific applications. 
+                Intended primarily to be used by one person at a time, 
+                they are commonly connected to a local area network and run multi-user operating systems.
+              </p> <br>
+              <button type="button" class="btn btn-success" style="margin-bottom: 20px;"><a href="https://en.wikipedia.org/wiki/Control_valve">learn more.. </a> </button> <br>
+            </section>
+        </center>
+    </div>
+    
+    <h1 class="h2"> <hr class="hr"> <br> our core values</h1>
+    <div class="grid2">
+        <aside>
+           <center>
+            <p class="facilities"><b>Vision</b></p>
+            <p class="facilities">  The vision of the Centre for Information and Telecommunication Engineering is to become the
+              leading Centre of Excellence in Information and Communication Technology, Telecommunication
+               Engineering, Entrepreneurship Policy & Strategic Studies in Africa.
+             </p>
+           </center>
+        </aside>
+        <aside>
+          <center>
+            <p class="facilities"><b>Mission</b></p>
+            <p class="facilities"> The mission of the Centre is to meet the needs of the Information and Telecommunication
+             Industries through result-oriented trainings, innovative Research, ICT Professional Consultancy 
+             and Capacity building
+            </p>
+           </center>
+        </aside>
+        <aside>
+            <center>
+              <p class="facilities"><b>Philosophy</b></p>        
+             <p class="facilities">  The philosophy of the Centre for Information & Telecommunication Engineering is to sustain the
+              core values of excellence, Integrity and Commitment in service delivery to humanity and ICT Industries.
+             </p>
+            </center>
+        </aside>
+
+    </div>
+    <div class="sidenav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <div class="main">
+      <marquee behavior="scroll" direction="left"><h3 style="color: red;">our selling points</h3></marquee>
+      <center><h2>Sidebar</h2></center>
+      <p>This sidebar is of full height (100%) and always shown.</p>
+      <p>Scroll down the page to see the result.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+      <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+    </div>
+    <h3 class="h3">Staff of the month</h3>
+    <div class="bkg">
+        <div>
+           <p style="padding-top: 10px; padding-left: 10px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eveniet,
+            suscipit voluptatum harum nulla provident nam soluta doloribus. Doloremque 
+            libero optio voluptate molestiae similique quasi, praesentium architecto 
+            accusamus sint laudantium.
+           Perferendis mollitia nulla explicabo dolorum unde asperiores nam minus.
+            Officia cupiditate laboriosam facere molestias temporibus amet, nemo 
+            porro neque ratione in ullam repudiandae fuga ad vitae hic blanditiis, 
+            consequuntur tempore.
+           Labore facere recusandae expedita corporis, quibusdam officiis quis
+            repellendus accusantium dolorum odio maxime est impedit consequatur. 
+            Mollitia ducimus ut dignissimos nulla porro tempora exercitationem 
+            cupiditate fugit, soluta assumenda quia eius!
+           </p> 
+            
+        </div>
+        <div>
+          <img src="images/IMG-20200628-WA0001.jpg" alt="" style="padding-top: 10px;padding-right: 10px;">
+        </div>
+    </div>
+    <div class="bkg1">
+      <div>
+        <p style="padding-top: 10px; padding-left: 10px;">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis eveniet,
+            suscipit voluptatum harum nulla provident nam soluta doloribus. Doloremque 
+            libero optio voluptate molestiae similique quasi, praesentium architecto 
+            accusamus sint laudantium.
+           Perferendis mollitia nulla explicabo dolorum unde asperiores nam minus.
+            Officia cupiditate laboriosam facere molestias temporibus amet, nemo 
+            porro neque ratione in ullam repudiandae fuga ad vitae hic blanditiis, 
+            consequuntur tempore.
+           Labore facere recusandae expedita corporis, quibusdam officiis quis
+            repellendus accusantiumdolorum odio maxime est impedit consequatur. 
+            Mollitia ducimus ut dignissimos nulla porro tempora exercitationem 
+            cupiditate fugit, soluta assumenda quia eius!
+           </p> 
+    </div>       
+        <div>
+            <img src="images/pic.jpg" alt="" style="padding-top: 10px;padding-right: 10px; height: 250px;width: 300px;">
+             
+        </div>
+        
+    </div>
+      
+   
+   
+      
+<footer class="footer">
+   <div class="grid2">
+    <aside>
+        <p style="text-transform: uppercase;">motto</p>
+        <ul>
+            <li>punctuality</li>
+            <li>reularity</li>
+            <li>attentiveness</li>
+            <li>dilligence</li>
+            <li>responsility</li>
+        </ul>
+    </aside>
+    <aside>
+        <p style="text-transform: uppercase;">Our Vision</p>
+        <ul>
+            <li>punctuality</li>
+            <li>reularity</li>
+            <li>attentiveness</li>
+            <li>dilligence</li>
+            <li>responsility</li>
+        </ul>
+    </aside>
+    <aside>
+        <b> <p style="text-transform: uppercase;">Our mission</p></b>
+        <ul>
+            <li>punctuality</li>
+            <li>reularity</li>
+            <li>attentiveness</li>
+            <li>dilligence</li>
+            <li>responsility</li>
+        </ul>
+    </aside>
+
+</div> 
+<div style="background-color: darkblue; color: white;">
+  <center>Copywrite, center for information and telecommunicatio Engineering <br> 
+    University Of Portharocurt.
+</center>
+    <p style="margin: 20px; padding: 20px;">Powered by Franclick technologies</p>
+    <div style="padding-left:1000px;">
+    
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-google"></a>
+      <a href="#" class="fa fa-linkedin"></a>
+      <a href="#" class="fa fa-youtube"></a>
+      <a href="#" class="fa fa-instagram"></a>
+  
+     </div>
+    
+</div>
+   
+</footer>
+</body>
+</html>

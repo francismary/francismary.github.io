@@ -1,0 +1,214 @@
+a{
+    color: white;
+    text-decoration: none;
+}
+
+#fm{
+    top: 0;
+    
+    position: fixed;
+    
+    
+  
+    width: 100%;
+   
+}
+h1{
+    color: white;
+    font-family: sans-serif;
+    font-weight: 20px;
+    }   
+   /* .nav{
+    background-color: hotpink;
+    color: black;
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed; Set the navbar to fixed position 
+    top: 0;  Position the navbar at the top of the page 
+    width: 100%;  Full width 
+    } */
+    .nav a{
+   
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    }
+
+    a:hover{
+    cursor: pointer;
+    color: whitesmoke;
+    background-color: #333;
+    transition: 2s;
+    }
+#img{
+    background-image: url(images/IMG_0239.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    
+     
+}
+border{
+    border: 1px solid;
+    border-radius: 30px ; 
+    height: 200px;
+    width: 300px;
+    
+
+}
+.display{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2c3e50;
+
+}
+.h1{
+    color: white;
+    text-transform: capitalize;
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif; 
+    background-color: #2c3e50;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin: 0;
+}
+.h2{
+    color: white;
+    background-color:  #2c3e50;
+    text-align: center;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    
+}
+
+.h3{
+    text-align: center;
+    color: blue;
+}
+/* .dropdown{
+    float: left;
+    overflow: hidden;
+}
+.dropdown .dropbtn{
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+.dropdown-content{
+    display: none;
+    position: fixed;
+    background-color: #f9f9f9;   
+    min-width: 160px;
+}
+.dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover{
+    background-color: #ddd;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+} */
+.footer{
+    color: blue;
+    padding-top: 10px;
+    margin-top: 20px;
+    background-color: lightblue;
+}
+.zoom {
+    
+    transition: transform .2s;
+    margin: 0 auto;
+  }
+  
+  .zoom:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+  }
+  .para{
+   
+        font-family: "Lucida Console", Courier, monospace;
+        padding-top: 10px;
+        text-align: center;
+      
+  }
+  #navanchor a:hover{
+      background-color: gainsboro;
+      color: white;
+  }
+  #dpdwn:hover{
+    display: block;
+  }
+  .facilities{
+      text-align: center;
+      color: white;
+  }
+  .facilities li{
+      list-style: none;
+      text-align: justify;
+  }
+  .hr{
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 0;
+      margin-bottom: 0;
+      color: white;
+      background-color: white;
+      border: 1.5px solid white;
+      border-radius: 5px;
+  }
+  @media(min-width:700px){
+
+    .grid1{
+        display: grid;
+        grid-template-columns: 2fr 2fr 2fr;
+        column-gap: 30px;
+        margin: 0;
+        background-color:  #2c3e50;
+        }
+     .grid2{
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+            column-gap: 30px;
+            margin: 0;
+            background-color:  #2c3e50;
+            }
+        .bkg{
+            background-color: lightgreen;
+            margin-top: 20px;
+            display: flex;
+            grid-template-columns: 3fr 1fr;
+            column-gap: 30px;
+        }
+        .bkg1{
+            background-color: lightgreen;
+            margin-top: 20px;
+            display: flex;
+            grid-template-columns: 3fr 1fr;
+            column-gap: 30px;
+            margin-bottom: 20px;
+        }
+
+
+}
